@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--html file to show user has timed out-->
+<head>
+    <title>Activity 1</title>
+    <link>
+    <link rel="stylesheet"  href="./Logingin_err.css">
+</head>
+<body>
+    <form action="loginin.php" method="post">
+      <div class="container">
+        <h1>Sign in</h1>
+        <div id="message">User Timed Out</div> 
+        <hr>
+        
+          <label for="uname"><b>Username</b></label><br>
+          <input type="text" placeholder="Enter Username" name="uname" id="uname" required><br>
+      
+          <label for="psw"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <input type="checkbox" onclick="pswsee()"><br>
+          
+          <button type="submit" name="login">Login</button>
+        <hr>
+      </div>
+      <div class="container signup">
+          <p>Not signed yet? <a href="Signup.html">Sign up here</a>.</p>
+      </div>
+    </form>
+</body> 
+<script src="./jquery-3.6.0.js"></script>
+<script src="./jvsfunc.js"></script>
